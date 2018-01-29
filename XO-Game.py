@@ -1,3 +1,12 @@
+#!/usr/bin/python
+#--------------------------------------------------------------------------
+# Tic Tac Toe game in Python
+# Author: Mohammad Hassan Jafari <mohammadhassanj@gmail.com>
+# Date: 29-1-2018
+# Tested with Python 3.x.x
+# TODO handeling exception
+
+
 def enter(board,winner):                                                      
           num = int(input('how much puzzle do you want\nfor example 4 for 4 * 4\n'))
           board = board(num)
